@@ -1,0 +1,40 @@
+.home-container{
+    background-color: #e0d5d5;
+    display: grid;
+    grid-template-columns: 2fr 9fr;
+}
+
+/* Sidebar section styles */
+.sidebar-section{
+    background-color: white;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.sidebar-section img{
+    height: 100px;
+    width: 125px;
+}
+
+.member-section li{
+    list-style: none;
+    text-align: left;
+    margin-left: 25px;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.group-section li{
+    list-style: none;
+    text-align: left;
+    margin-left: 25px;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+/* Body section styles */
+.body-section{
+    margin: 20px;
+    padding: 2%;
+    background-color: whitesmoke;
+}

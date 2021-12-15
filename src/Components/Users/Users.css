@@ -1,0 +1,43 @@
+.dutypedia-user{
+    border-bottom: 1px solid gray;
+}
+.dutypedia-user:hover{
+    border-bottom: 1px solid red;
+}
+
+.offline-user{
+    border-bottom: 1px solid gray;
+    color: red;
+}
+.offline-user:hover{
+    border-bottom: 1px solid red;
+    color: red;
+}
+
+.search-input{
+    border: 0px;
+    background-color: lightgray;
+    width: 60%;
+}
+
+button, input{
+    max-height: 40px;
+}
+
+.btn-area, .select-all{
+    width: 150px;
+}
+
+.student-btn{
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    border: 0px;
+    padding: 8px 0px;
+}
+
+.user-selection{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
