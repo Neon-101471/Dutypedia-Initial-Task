@@ -41,3 +41,9 @@ button, input{
     color: white;
     border-radius: 10px;
 }
+
+.users-container{
+    margin-top: 35px;
+    height: 500px;
+    overflow-y: scroll;
+}

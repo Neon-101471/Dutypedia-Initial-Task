@@ -32,12 +32,8 @@ const Users = () => {
                 </div>
             </div>
 
-
-
-
-
             {/* Users selection heading */}
-            <div className="row row-cols-1 row-cols-md-1 p-3 mx-3 y-2 user-selection">
+            <div className="row row-cols-1 row-cols-md-1 px-2 py-3 mx-3 my-2 user-selection">
                 <div className="col d-flex justify-content-between">
                     <div className='select-all d-flex align-items-center'> <input placeholder='Select All' type="checkbox" /> <span className='ps-2'>Select All</span></div>
                     <span>Role</span>
@@ -45,13 +41,8 @@ const Users = () => {
                 </div>
             </div>
 
-
-
-
-
-
             {/* Users collection */}
-            <div className="row row-cols-1 row-cols-md-1 g-4">
+            <div className="row row-cols-1 row-cols-md-1 gy-4 users-container">
                 {
                     userCollection.map(user => <SingleUser
                         key={user.id}
